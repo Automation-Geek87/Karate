@@ -1,0 +1,23 @@
+{
+  "HomeMenu": {
+    "registerLink": "//a[contains(.,'REGISTER')]"
+
+  },
+  "Register": {
+    "firstName": "//input[@name='firstName']",
+    "Lastname": "//input[@name='lastName']",
+    "phone": "//input[@name='phone']",
+    "userName": "//input[@id='userName']",
+    "email": "//input[@id='email']",
+    "password": "//input[@name='password']",
+    "confirmPassword": "//input[@name='confirmPassword']",
+    "Register": "//input[@name='register']",
+    "signInLink": "//a[contains(.,'sign-in')]"
+  },
+  "SingIn": {
+    "userName": "//input[@name='userName']",
+    "password": "//input[@name='password']",
+    "Login": "//input[@name='login']"
+
+  }
+}

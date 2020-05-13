@@ -1,0 +1,23 @@
+<testsuite failures="1"
+           name="src/test/java/feature_files_ui/NewTourDemaout_SignIn.feature"
+           skipped="0"
+           tests="1"
+           time="1.041954">
+   <testcase classname="src.test.java.feature_files_ui.NewTourDemaout_SignIn"
+             name="Open NewTours Login Application"
+             time="1.041954">
+      <failure message="NewTourDemaout_SignIn.feature:17 - driver config / start failed: webdriver session create status 500, {&#34;value&#34;:{&#34;stacktrace&#34;:&#34;&#34;,&#34;error&#34;:&#34;session not created&#34;,&#34;message&#34;:&#34;Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.&#34;}}, options: {type=safaridriver, showDriverLog=true, target=null}">Given def registerPage = call read 'Locator.json' ......................... passed
+* configure driver = { type: 'safaridriver', showDriverLog: true } ........ passed
+Given driver 'http://newtours.demoaut.com/' ............................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: NewTourDemaout_SignIn.feature:17 - driver config / start failed: webdriver session create status 500, {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, options: {type=safaridriver, showDriverLog=true, target=null}
+	at ✽.Given driver 'http://newtours.demoaut.com/' (NewTourDemaout_SignIn.feature:17)
+
+And waitUntil("document.readyState == 'complete'") ........................ skipped
+And input(registerPage.SingIn.userName, 'USerNameSelected') ............... skipped
+And input(registerPage.SingIn.password, 'USer1') .......................... skipped
+When submit().click(registerPage.SingIn.Login) ............................ skipped
+And waitUntil("document.readyState == 'complete'") ........................ skipped</failure>
+   </testcase>
+</testsuite>

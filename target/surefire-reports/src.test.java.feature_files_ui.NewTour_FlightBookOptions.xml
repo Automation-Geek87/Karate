@@ -1,0 +1,24 @@
+<testsuite failures="1"
+           name="src/test/java/feature_files_ui/NewTour_FlightBookOptions.feature"
+           skipped="0"
+           tests="1"
+           time="0.010875">
+   <testcase classname="src.test.java.feature_files_ui.NewTour_FlightBookOptions"
+             name="Open NewTours Feature file options"
+             time="0.010875">
+      <failure message="-unknown-:4 - javascript evaluation failed: read('NewTourDemaoutSignIn.feature'), java.io.FileNotFoundException: src/test/java/feature_files_ui/NewTourDemaoutSignIn.feature (No such file or directory)">Given call read('NewTourDemaoutSignIn.feature') ........................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:4 - javascript evaluation failed: read('NewTourDemaoutSignIn.feature'), java.io.FileNotFoundException: src/test/java/feature_files_ui/NewTourDemaoutSignIn.feature (No such file or directory)
+	at ✽.Given call read('NewTourDemaoutSignIn.feature') (-unknown-:4)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. skipped
+Given waitUntil("document.readyState == 'complete'") ...................... skipped
+When submit().click("//a[contains(.,'Flights')]") ......................... skipped
+And waitUntil("document.readyState == 'complete'") ........................ skipped
+And select("select[name='fromPort']", 'London') ........................... skipped
+And select("select[name='passCount']", '2') ............................... skipped
+And select("select[name='airline']", 'Blue Skies Airlines') ............... skipped
+When submit().click("//input[@name='findFlights']") ....................... skipped</failure>
+   </testcase>
+</testsuite>

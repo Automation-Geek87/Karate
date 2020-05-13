@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javax.xml.bind:jaxb-api:${jaxb.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/${jaxb.version}/jaxb-api-${jaxb.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/${jaxb.version}/jaxb-api-${jaxb.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/${jaxb.version}/jaxb-api-${jaxb.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,18 @@
+<testsuite failures="1"
+           name="src/test/java/feature_files_ui/StepDefinitionForTeraDemaout.feature"
+           skipped="0"
+           tests="1"
+           time="0.000134">
+   <testcase classname="src.test.java.feature_files_ui.StepDefinitionForTeraDemaout"
+             name="Open NewTours Feature file options"
+             time="0.000134">
+      <failure message="StepDefinitionForTeraDemaout.feature:16 - no step-definition method match found for: Launch Application in back-end">* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given Launch Application in back-end ...................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: StepDefinitionForTeraDemaout.feature:16 - no step-definition method match found for: Launch Application in back-end
+	at ✽.Given Launch Application in back-end (StepDefinitionForTeraDemaout.feature:16)
+
+When do login methond ..................................................... skipped</failure>
+   </testcase>
+</testsuite>

@@ -1,0 +1,100 @@
+23:34:15.986 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:34:16.727 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:34:16.817 [ForkJoinPool-2-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:16.817 [pool-2-thread-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:16.817 [ForkJoinPool-2-worker-5] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:16.881 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9222 not available, will use: 53399
+23:34:17.250 [ForkJoinPool-2-worker-5] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 53 milliseconds for URL: http://localhost:9222
+23:34:17.250 [ForkJoinPool-2-worker-5] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+23:34:17.877 [pool-2-thread-2] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 9: src/test/java/feature_files_ui/NewTour_FlightBookOptions.feature
+23:34:18.678 [ForkJoinPool-2-worker-7] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:34:18.915 [ForkJoinPool-2-worker-3] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:34:19.259 [ForkJoinPool-2-worker-5] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:34:21.632 [ForkJoinPool-2-worker-5] WARN  c.intuit.karate.driver.DriverOptions - js eval failed once:var e = document.evaluate("//input[@name='firstName']", document, null, 9, null).singleNodeValue; e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'focus' of null\n    at <anonymous>:1:101","objectId":"{\"injectedScriptId\":1,\"id\":3}"}
+23:34:23.894 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - unknown character / key code: T
+23:34:23.947 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - unknown character / key code: A
+23:34:24.680 [ForkJoinPool-2-worker-5] ERROR c.intuit.karate.driver.DriverOptions - js eval failed twice:var e = document.evaluate("//input[@name='firstName']", document, null, 9, null).singleNodeValue; e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'focus' of null\n    at <anonymous>:1:101","objectId":"{\"injectedScriptId\":2,\"id\":1}"}
+23:34:24.695 [ForkJoinPool-2-worker-5] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9222 not available, will use: 53453
+23:34:24.746 [pool-2-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 9: src/test/java/feature_files_ui/NewTourDemaout_Headless_Execution.feature
+23:34:26.630 [ForkJoinPool-2-worker-5] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:34:27.864 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9222 not available, will use: 53728
+23:34:27.902 [chrome_1589398456875] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 137 - [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=53399, --no-first-run, --user-data-dir=/Users/akhgupta0/Documents/Karate-UI/DCT/target/chrome_1589398456875, --disable-popup-blocking]
+23:34:29.409 [ForkJoinPool-2-worker-7] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:34:30.489 [ForkJoinPool-2-worker-5] WARN  c.intuit.karate.driver.DriverOptions - unknown character / key code: R
+23:34:30.555 [ForkJoinPool-2-worker-3] ERROR c.intuit.karate.driver.DriverOptions - << timed out after milliseconds: 3000 - [id: 20, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:30.556 [ForkJoinPool-2-worker-3] WARN  c.intuit.karate.driver.DriverOptions - waitUntil evaluate failed: failed to get reply for: [id: 20, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:30.566 [ForkJoinPool-2-worker-5] WARN  c.intuit.karate.driver.DriverOptions - unknown character / key code: T
+23:34:33.029 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - unknown character / key code: K
+23:34:33.099 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - unknown character / key code: U
+23:34:33.105 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - unknown character / key code: I
+23:34:34.467 [ForkJoinPool-2-worker-5] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9222 not available, will use: 53764
+23:34:34.499 [chrome_1589398464695] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 137 - [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=53453, --no-first-run, --user-data-dir=/Users/akhgupta0/Documents/Karate-UI/DCT/target/chrome_1589398464695, --disable-popup-blocking]
+23:34:36.103 [ForkJoinPool-2-worker-5] WARN  com.intuit.karate - xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+23:34:36.135 [ForkJoinPool-2-worker-5] ERROR com.intuit.karate - driver config / start failed: Illegal character in path at index 0: [], options: {type=chrome, showDriverLog=true, target=null}
+java.lang.IllegalArgumentException: Illegal character in path at index 0: []
+	at java.base/java.net.URI.create(URI.java:906)
+	at com.intuit.karate.netty.WebSocketOptions.<init>(WebSocketOptions.java:51)
+	at com.intuit.karate.netty.WebSocketOptions.<init>(WebSocketOptions.java:47)
+	at com.intuit.karate.driver.DevToolsDriver.<init>(DevToolsDriver.java:86)
+	at com.intuit.karate.driver.chrome.Chrome.<init>(Chrome.java:51)
+	at com.intuit.karate.driver.chrome.Chrome.start(Chrome.java:75)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:265)
+	at com.intuit.karate.core.ScenarioContext.driver(ScenarioContext.java:967)
+	at com.intuit.karate.StepActions.driver(StepActions.java:392)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.intuit.karate.core.Engine.executeStep(Engine.java:153)
+	at com.intuit.karate.core.ScenarioExecutionUnit.execute(ScenarioExecutionUnit.java:219)
+	at com.intuit.karate.core.ScenarioExecutionUnit.run(ScenarioExecutionUnit.java:297)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1409)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 0: []
+	at java.base/java.net.URI$Parser.fail(URI.java:2938)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3109)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3191)
+	at java.base/java.net.URI$Parser.parse(URI.java:3150)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 21 common frames omitted
+23:34:36.168 [ForkJoinPool-2-worker-5] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:36.560 [ForkJoinPool-2-worker-3] ERROR c.intuit.karate.driver.DriverOptions - << timed out after milliseconds: 3000 - [id: 21, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:36.561 [ForkJoinPool-2-worker-3] WARN  c.intuit.karate.driver.DriverOptions - waitUntil evaluate failed: failed to get reply for: [id: 21, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:36.880 [ForkJoinPool-2-worker-7] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:36.910 [chrome_1589398467863] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 137 - [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --remote-debugging-port=53728, --no-first-run, --user-data-dir=/Users/akhgupta0/Documents/Karate-UI/DCT/target/chrome_1589398467863, --disable-popup-blocking]
+23:34:36.938 [pool-2-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 5 of 9: src/test/java/feature_files_ui/StepDefinitionForTeraDemaout.feature
+23:34:36.965 [ForkJoinPool-2-worker-7] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:36.982 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - preferred port 5555 not available, will use: 53779
+23:34:38.007 [ForkJoinPool-2-worker-7] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, request: [method: POST, responseTime: 504.598928, body: {"capabilities":{"alwaysMatch":{"browserName":"safari"}}}]
+23:34:38.008 [ForkJoinPool-2-worker-7] ERROR c.intuit.karate.driver.DriverOptions - webdriver session create status 500, {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}
+23:34:38.008 [ForkJoinPool-2-worker-7] ERROR com.intuit.karate - driver config / start failed: webdriver session create status 500, {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, options: {type=safaridriver, showDriverLog=true, target=null}
+java.lang.RuntimeException: webdriver session create status 500, {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}
+	at com.intuit.karate.driver.WebDriver.<init>(WebDriver.java:62)
+	at com.intuit.karate.driver.safari.SafariWebDriver.<init>(SafariWebDriver.java:41)
+	at com.intuit.karate.driver.safari.SafariWebDriver.start(SafariWebDriver.java:47)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:273)
+	at com.intuit.karate.core.ScenarioContext.driver(ScenarioContext.java:967)
+	at com.intuit.karate.StepActions.driver(StepActions.java:392)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.intuit.karate.core.Engine.executeStep(Engine.java:153)
+	at com.intuit.karate.core.ScenarioExecutionUnit.execute(ScenarioExecutionUnit.java:219)
+	at com.intuit.karate.core.ScenarioExecutionUnit.run(ScenarioExecutionUnit.java:297)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1409)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+23:34:38.070 [pool-2-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 6 of 9: src/test/java/feature_files_ui/NewTourDemaout_SignIn.feature
+23:34:38.097 [ForkJoinPool-2-worker-7] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:38.126 [ForkJoinPool-2-worker-7] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9222 not available, will use: 53786
+23:34:38.431 [ForkJoinPool-2-worker-5] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, request: [method: POST, responseTime: 1197.732446, body: {"capabilities":{"alwaysMatch":{"browserName":"safari"}}}]

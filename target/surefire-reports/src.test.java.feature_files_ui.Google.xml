@@ -1,0 +1,230 @@
+<testsuite failures="5"
+           name="src/test/java/feature_files_ui/Google.feature"
+           skipped="0"
+           tests="5"
+           time="57.084003">
+   <testcase classname="src.test.java.feature_files_ui.Google"
+             name="Open Google Application"
+             time="25.703005">
+      <failure message="Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q&#xA;value('.//input[@name='q'][1]')&#xA;                       ^ in &lt;eval&gt; at line number 1 at column number 23">* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'test') ........................................ passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'test' ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'test' (Google.feature:20)</failure>
+   </testcase>
+   <testcase classname="src.test.java.feature_files_ui.Google"
+             name="Open Google Application"
+             time="10.945797">
+      <failure message="Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q&#xA;value('.//input[@name='q'][1]')&#xA;                       ^ in &lt;eval&gt; at line number 1 at column number 23">* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'test') ........................................ passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'test' ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'test' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Testing-Application') ......................... passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Testing-Application' ....... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Testing-Application' (Google.feature:20)</failure>
+   </testcase>
+   <testcase classname="src.test.java.feature_files_ui.Google"
+             name="Open Google Application"
+             time="9.754793">
+      <failure message="Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q&#xA;value('.//input[@name='q'][1]')&#xA;                       ^ in &lt;eval&gt; at line number 1 at column number 23">* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'test') ........................................ passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'test' ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'test' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Testing-Application') ......................... passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Testing-Application' ....... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Testing-Application' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Real Testing') ................................ passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Real Testing' .............. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Real Testing' (Google.feature:20)</failure>
+   </testcase>
+   <testcase classname="src.test.java.feature_files_ui.Google"
+             name="Open Google Application"
+             time="8.99958">
+      <failure message="Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q&#xA;value('.//input[@name='q'][1]')&#xA;                       ^ in &lt;eval&gt; at line number 1 at column number 23">* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'test') ........................................ passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'test' ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'test' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Testing-Application') ......................... passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Testing-Application' ....... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Testing-Application' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Real Testing') ................................ passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Real Testing' .............. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Real Testing' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Karate UI') ................................... passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Karate UI' ................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Karate UI' (Google.feature:20)</failure>
+   </testcase>
+   <testcase classname="src.test.java.feature_files_ui.Google"
+             name="Open Google Application"
+             time="1.680828">
+      <failure message="Google.feature:15 - driver config / start failed: Illegal character in path at index 0: [], options: {type=chrome, showDriverLog=true, target=null}">* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'test') ........................................ passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'test' ...................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'test' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Testing-Application') ......................... passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Testing-Application' ....... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Testing-Application' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Real Testing') ................................ passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Real Testing' .............. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Real Testing' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input('input[name=q]', 'Karate UI') ................................... passed
+When submit().click("//input[@name='btnK'][1]") ........................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+Then match value('.//input[@name='q'][1]') == 'Karate UI' ................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:20 - javascript evaluation failed: value('.//input[@name='q'][1]'), &lt;eval&gt;:1:23 Expected , but found q
+value('.//input[@name='q'][1]')
+                       ^ in &lt;eval&gt; at line number 1 at column number 23
+	at ✽.Then match value('.//input[@name='q'][1]') == 'Karate UI' (Google.feature:20)
+
+* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.google.com' ..................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Google.feature:15 - driver config / start failed: Illegal character in path at index 0: [], options: {type=chrome, showDriverLog=true, target=null}
+	at ✽.Given driver 'https://www.google.com' (Google.feature:15)
+
+And waitUntil("document.readyState == 'complete'") ........................ skipped
+And input('input[name=q]', 'Karate API') .................................. skipped
+When submit().click("//input[@name='btnK'][1]") ........................... skipped
+And waitUntil("document.readyState == 'complete'") ........................ skipped
+Then match value('.//input[@name='q'][1]') == 'Karate API' ................ skipped</failure>
+   </testcase>
+</testsuite>

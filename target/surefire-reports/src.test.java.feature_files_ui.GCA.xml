@@ -1,0 +1,27 @@
+<testsuite failures="1"
+           name="src/test/java/feature_files_ui/GCA.feature"
+           skipped="0"
+           tests="1"
+           time="9.798049">
+   <testcase classname="src.test.java.feature_files_ui.GCA"
+             name="Open GCA Application"
+             time="9.798049">
+      <failure message="GCA.feature:17 - javascript evaluation failed: click(&#34;//div[text()='Get Career Advice']&#34;), js eval failed twice:document.evaluate(&#34;//div[text()='Get Career Advice']&#34;, document, null, 9, null).singleNodeValue.click(), error: {&#34;type&#34;:&#34;object&#34;,&#34;subtype&#34;:&#34;error&#34;,&#34;className&#34;:&#34;TypeError&#34;,&#34;description&#34;:&#34;TypeError: Cannot read property 'click' of null\n    at &lt;anonymous&gt;:1:96&#34;,&#34;objectId&#34;:&#34;{\&#34;injectedScriptId\&#34;:1,\&#34;id\&#34;:3}&#34;}">* configure driver = { type: 'chrome', showDriverLog: true } .............. passed
+Given driver 'https://www.tamm.abudhabi/journeys/get-technical-education/' . passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And click("//div[text()='Get Career Advice']") ............................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: GCA.feature:17 - javascript evaluation failed: click("//div[text()='Get Career Advice']"), js eval failed twice:document.evaluate("//div[text()='Get Career Advice']", document, null, 9, null).singleNodeValue.click(), error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'click' of null\n    at &lt;anonymous&gt;:1:96","objectId":"{\"injectedScriptId\":1,\"id\":3}"}
+	at ✽.And click("//div[text()='Get Career Advice']") (GCA.feature:17)
+
+And waitForUrl("https://www.tamm.abudhabi/journeys/get-technical-education/get-career-advice/") . skipped
+And waitFor("//div[@class='ui-lib-start-login']//button").click() ......... skipped
+And waitUntil("document.readyState == 'complete'") ........................ skipped
+And waitFor("//input[@class='ui-lib-radio__input'][1]").click() ........... skipped
+And waitFor("//button[text()='Next']").click() ............................ skipped
+And waitFor("//button[contains(.,'Cancel')]").click() ..................... skipped
+And waitUntil("document.readyState == 'complete'") ........................ skipped
+And waitForEnabled("//button[contains(@class,'ui-lib-button_small')]").click() . skipped</failure>
+   </testcase>
+</testsuite>

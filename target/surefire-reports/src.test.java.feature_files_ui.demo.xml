@@ -1,0 +1,20 @@
+<testsuite failures="1"
+           name="src/test/java/feature_files_ui/demo.feature"
+           skipped="0"
+           tests="1"
+           time="2.260464">
+   <testcase classname="src.test.java.feature_files_ui.demo"
+             name="try to login to github"
+             time="2.260464">
+      <failure message="demo.feature:15 - driver config / start failed: webdriver session create status 500, {&#34;value&#34;:{&#34;stacktrace&#34;:&#34;&#34;,&#34;error&#34;:&#34;session not created&#34;,&#34;message&#34;:&#34;Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.&#34;}}, options: {type=safaridriver, showDriverLog=true, target=null}">* configure driver = { type: 'safaridriver', showDriverLog: true } ........ passed
+Given driver 'https://google.com' ......................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: demo.feature:15 - driver config / start failed: webdriver session create status 500, {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, options: {type=safaridriver, showDriverLog=true, target=null}
+	at ✽.Given driver 'https://google.com' (demo.feature:15)
+
+And input("input[name=q]", 'karate dsl') .................................. skipped
+When submit().click("input[name=btnI]") ................................... skipped
+Then waitForUrl('https://github.com/intuit/karate') ....................... skipped</failure>
+   </testcase>
+</testsuite>

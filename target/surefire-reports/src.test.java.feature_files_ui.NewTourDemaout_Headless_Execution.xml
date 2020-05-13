@@ -1,0 +1,29 @@
+<testsuite failures="1"
+           name="src/test/java/feature_files_ui/NewTourDemaout_Headless_Execution.feature"
+           skipped="0"
+           tests="1"
+           time="7.858706">
+   <testcase classname="src.test.java.feature_files_ui.NewTourDemaout_Headless_Execution"
+             name="Open NewTours Application"
+             time="7.858706">
+      <failure message="NewTourDemaout_Headless_Execution.feature:19 - javascript evaluation failed: input(registerPage.Register.firstName, 'USer1'), js eval failed twice:var e = document.evaluate(&#34;//input[@name='firstName']&#34;, document, null, 9, null).singleNodeValue; e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: {&#34;type&#34;:&#34;object&#34;,&#34;subtype&#34;:&#34;error&#34;,&#34;className&#34;:&#34;TypeError&#34;,&#34;description&#34;:&#34;TypeError: Cannot read property 'focus' of null\n    at &lt;anonymous&gt;:1:101&#34;,&#34;objectId&#34;:&#34;{\&#34;injectedScriptId\&#34;:2,\&#34;id\&#34;:1}&#34;}">Given def registerPage = call read 'Locator.json' ......................... passed
+* configure driver = { type: 'chrome', start: false, showDriverLog: true  } . passed
+Given driver 'http://newtours.demoaut.com/' ............................... passed
+When submit().click(registerPage.HomeMenu.registerLink) ................... passed
+And waitUntil("document.readyState == 'complete'") ........................ passed
+And input(registerPage.Register.firstName, 'USer1') ....................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: NewTourDemaout_Headless_Execution.feature:19 - javascript evaluation failed: input(registerPage.Register.firstName, 'USer1'), js eval failed twice:var e = document.evaluate("//input[@name='firstName']", document, null, 9, null).singleNodeValue; e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'focus' of null\n    at &lt;anonymous&gt;:1:101","objectId":"{\"injectedScriptId\":2,\"id\":1}"}
+	at ✽.And input(registerPage.Register.firstName, 'USer1') (NewTourDemaout_Headless_Execution.feature:19)
+
+And input(registerPage.Register.Lastname, 'USer1') ........................ skipped
+And input(registerPage.Register.phone, 'USer1') ........................... skipped
+And input(registerPage.Register.userName, 'testing@gmail.com') ............ skipped
+And input(registerPage.Register.email, 'USerNameSelected') ................ skipped
+And input(registerPage.Register.password, 'USerNameSelected') ............. skipped
+And input(registerPage.Register.confirmPassword, 'USerNameSelected') ...... skipped
+And submit().click(registerPage.Register.Register) ........................ skipped
+And waitUntil("document.readyState == 'complete'") ........................ skipped</failure>
+   </testcase>
+</testsuite>

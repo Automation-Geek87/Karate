@@ -1,0 +1,15 @@
+23:34:16.819 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:21.632 js eval failed once:var e = document.evaluate("//input[@name='firstName']", document, null, 9, null).singleNodeValue; e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'focus' of null\n    at <anonymous>:1:101","objectId":"{\"injectedScriptId\":1,\"id\":3}"}
+23:34:24.681 js eval failed twice:var e = document.evaluate("//input[@name='firstName']", document, null, 9, null).singleNodeValue; e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}, error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'focus' of null\n    at <anonymous>:1:101","objectId":"{\"injectedScriptId\":2,\"id\":1}"}
+23:34:24.696 preferred port 9222 not available, will use: 53453
+23:34:30.489 unknown character / key code: R
+23:34:30.566 unknown character / key code: T
+23:34:34.468 preferred port 9222 not available, will use: 53764
+23:34:36.136 driver config / start failed: Illegal character in path at index 0: [], options: {type=chrome, showDriverLog=true, target=null}
+23:34:36.169 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:38.431 http response code: 500, response: {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, request: [method: POST, responseTime: 1197.732446, body: {"capabilities":{"alwaysMatch":{"browserName":"safari"}}}]
+23:34:38.432 webdriver session create status 500, {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}
+23:34:38.434 driver config / start failed: webdriver session create status 500, {"value":{"stacktrace":"","error":"session not created","message":"Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, options: {type=safaridriver, showDriverLog=true, target=null}
+23:34:38.534 preferred port 9222 not available, will use: 53789
+23:34:41.769 preferred port 9222 not available, will use: 53824
+23:34:45.472 preferred port 9222 not available, will use: 53850

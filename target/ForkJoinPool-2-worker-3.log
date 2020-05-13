@@ -1,0 +1,10 @@
+23:34:16.819 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:34:30.556 << timed out after milliseconds: 3000 - [id: 20, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:30.556 waitUntil evaluate failed: failed to get reply for: [id: 20, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:36.561 << timed out after milliseconds: 3000 - [id: 21, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:36.561 waitUntil evaluate failed: failed to get reply for: [id: 21, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:42.569 << timed out after milliseconds: 3000 - [id: 22, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:42.570 waitUntil evaluate failed: failed to get reply for: [id: 22, method: Runtime.evaluate, params: {expression=document.readyState == 'complete', returnByValue=true}]
+23:34:42.570 failed after 3 retries and 18026 milliseconds
+23:34:42.604 preferred port 9222 not available, will use: 53830
+23:34:46.043 preferred port 9222 not available, will use: 53856
